@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Downloader</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        Makkar Technologies
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>YouTube Video Downloader</h1>
+        <p>Download online videos or convert them to webm for free</p>
+
+        <!-- Form -->
+        <form method="POST" action="/download">
+            <input type="text" name="url" placeholder="Enter YouTube URL" required>
+            <button type="submit">Download</button>
+
+            <!-- Radio Buttons -->
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="format" value="video" checked>
+                    Video/Audio
+                </label>
+                <label>
+                    <input type="radio" name="format" value="audio">
+                    Audio Only
+                </label>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
