@@ -1,0 +1,73 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8d7da; /* Light red */
+}
+
+/* Header */
+header {
+    background-color: #a71d2a; /* Dark red */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Centered Container */
+.container {
+    margin: 50px auto;
+    width: 50%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Title and Description */
+.container h1 {
+    color: #343a40; /* Dark Gray */
+    font-size: 28px;
+}
+
+.container p {
+    color: #6c757d; /* Light Gray */
+    font-size: 16px;
+}
+
+/* Input and Button */
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #dc3545; /* Red */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a71d2a; /* Darker Red */
+}
+
+/* Radio Buttons */
+.radio-group {
+    margin: 15px 0;
+}
+
+.radio-group label {
+    margin-right: 20px;
+    font-size: 16px;
+}
